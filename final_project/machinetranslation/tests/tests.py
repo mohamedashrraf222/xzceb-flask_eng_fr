@@ -1,4 +1,6 @@
 import unittest
+import sys
+sys.path.append("..")  # Add parent directory to sys.path
 import translator
 
 class TestOne(unittest.TestCase): 
